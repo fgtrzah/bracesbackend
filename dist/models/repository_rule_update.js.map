@@ -1,0 +1,1 @@
+{"version":3,"file":"repository_rule_update.js","sourceRoot":"","sources":["../../src/models/repository_rule_update.ts"],"names":[],"mappings":";AAAA,8DAA8D;AAC9D,0BAA0B;AAC1B,oBAAoB;AACpB,oBAAoB;;;AAepB,IAAiB,sBAAsB,CAOtC;AAPD,WAAiB,sBAAsB;IAEnC,IAAY,IAEX;IAFD,WAAY,IAAI;QACZ,yBAAiB,CAAA;IACrB,CAAC,EAFW,IAAI,GAAJ,2BAAI,KAAJ,2BAAI,QAEf;AAGL,CAAC,EAPgB,sBAAsB,sCAAtB,sBAAsB,QAOtC"}

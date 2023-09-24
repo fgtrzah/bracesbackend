@@ -1,0 +1,1 @@
+{"version":3,"file":"webhook_label_edited.js","sourceRoot":"","sources":["../../src/models/webhook_label_edited.ts"],"names":[],"mappings":";AAAA,8DAA8D;AAC9D,0BAA0B;AAC1B,oBAAoB;AACpB,oBAAoB;;;AA0DpB,IAAiB,oBAAoB,CAOpC;AAPD,WAAiB,oBAAoB;IAEjC,IAAY,MAEX;IAFD,WAAY,MAAM;QACd,2BAAiB,CAAA;IACrB,CAAC,EAFW,MAAM,GAAN,2BAAM,KAAN,2BAAM,QAEjB;AAGL,CAAC,EAPgB,oBAAoB,oCAApB,oBAAoB,QAOpC"}

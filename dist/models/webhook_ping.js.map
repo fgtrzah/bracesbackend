@@ -1,0 +1,1 @@
+{"version":3,"file":"webhook_ping.js","sourceRoot":"","sources":["../../src/models/webhook_ping.ts"],"names":[],"mappings":";AAAA,8DAA8D;AAC9D,0BAA0B;AAC1B,oBAAoB;AACpB,oBAAoB;;;AAgEpB,IAAiB,YAAY,CAU5B;AAVD,WAAiB,YAAY;IAEzB;;OAEG;IACH,IAAY,IAEX;IAFD,WAAY,IAAI;QACZ,mBAAW,CAAA;IACf,CAAC,EAFW,IAAI,GAAJ,iBAAI,KAAJ,iBAAI,QAEf;AAGL,CAAC,EAVgB,YAAY,4BAAZ,YAAY,QAU5B"}

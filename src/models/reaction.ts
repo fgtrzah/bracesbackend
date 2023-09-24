@@ -25,8 +25,8 @@ export namespace reaction {
      * The reaction to use
      */
     export enum content {
-        _1 = '+1',
-        _1 = '-1',
+        upvote = '+1',
+        downvote = '-1',
         LAUGH = 'laugh',
         CONFUSED = 'confused',
         HEART = 'heart',
