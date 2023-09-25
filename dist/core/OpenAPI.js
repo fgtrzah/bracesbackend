@@ -6,7 +6,7 @@ exports.OpenAPI = {
     VERSION: '1.1.4',
     WITH_CREDENTIALS: false,
     CREDENTIALS: 'include',
-    TOKEN: undefined,
+    TOKEN: process.env.TOKEN,
     USERNAME: undefined,
     PASSWORD: undefined,
     HEADERS: undefined,

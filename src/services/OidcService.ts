@@ -7,7 +7,7 @@ import type { oidc_custom_sub } from '../models/oidc_custom_sub';
 
 import type { CancelablePromise } from '../core/CancelablePromise';
 import { OpenAPI } from '../core/OpenAPI';
-import { request as __request } from '../core/request';
+import { request } from '../core/request';
 
 export class OidcService {
 
@@ -23,7 +23,7 @@ export class OidcService {
     public static oidcGetOidcCustomSubTemplateForOrg(
         org: string,
     ): CancelablePromise<oidc_custom_sub> {
-        return __request(OpenAPI, {
+        return request(OpenAPI, {
             method: 'GET',
             url: '/orgs/{org}/actions/oidc/customization/sub',
             path: {
@@ -46,7 +46,7 @@ export class OidcService {
         org: string,
         requestBody: oidc_custom_sub,
     ): CancelablePromise<empty_object> {
-        return __request(OpenAPI, {
+        return request(OpenAPI, {
             method: 'PUT',
             url: '/orgs/{org}/actions/oidc/customization/sub',
             path: {

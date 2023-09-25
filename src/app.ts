@@ -1,12 +1,13 @@
 import express from 'express';
 import { request } from './core/request'
+import { OpenAPI } from './core/OpenAPI';
 
 const app = express();
-const port = 3000;
+const port = 8888;
 
-app.get('/', (req, res) => {
-  console.log(typeof request)
-  res.send('Hello World!');
+app.get('*', async (req, res) => {
+  const data = await request(OpenAPI, { url: req.url, method: req.method })
+  res.send(data);
 });
 
 app.listen(port, () => {
