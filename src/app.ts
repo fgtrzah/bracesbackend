@@ -6,8 +6,13 @@ const app = express();
 const port = 8888;
 
 app.get('*', async (req, res) => {
-  const data = await request(OpenAPI, { url: req.url, method: req.method })
-  res.send(data);
+  try {
+    const data = await request(OpenAPI, { url: req.url, method: req.method })
+    res.send(data);
+  } catch (error) {
+    console.log(error);
+    res.json(error)
+  }
 });
 
 app.listen(port, () => {

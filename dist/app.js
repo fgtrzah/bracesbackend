@@ -18,8 +18,14 @@ const OpenAPI_1 = require("./core/OpenAPI");
 const app = (0, express_1.default)();
 const port = 8888;
 app.get('*', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    const data = yield (0, request_1.request)(OpenAPI_1.OpenAPI, { url: req.url, method: req.method });
-    res.send(data);
+    try {
+        const data = yield (0, request_1.request)(OpenAPI_1.OpenAPI, { url: req.url, method: req.method });
+        res.send(data);
+    }
+    catch (error) {
+        console.log(error);
+        res.json(error);
+    }
 }));
 app.listen(port, () => {
     return console.log(`Express is listening at http://localhost:${port}`);
